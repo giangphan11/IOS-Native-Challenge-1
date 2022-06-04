@@ -17,8 +17,20 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwI-mJ-nuW">
+                    <rect key="frame" x="12" y="56" width="390" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemMintColor"/>
+            <constraints>
+                <constraint firstItem="XwI-mJ-nuW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="4Hs-m3-mQn"/>
+                <constraint firstItem="XwI-mJ-nuW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="12" id="bTr-HV-RqK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XwI-mJ-nuW" secondAttribute="trailing" constant="12" id="fnd-P3-50a"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="80"/>
         </view>
     </objects>
